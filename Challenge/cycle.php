@@ -59,7 +59,7 @@
                 <img src="<?php echo $bikes["Yamaha"]["picture"]?>" class="card-img-top" alt="<?php echo $bikes["Yamaha"]["model"]?>">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $bikes["Yamaha"]["model"]?></h5>
-                    <p class="card-text">This is a short information about this car.</p>
+                    <p class="card-text">This is a short information about this motorcycle.</p>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><?php echo "Seats: {$bikes["Yamaha"]["ps"]}"?></li>
                         <li class="list-group-item">Now at: <?php echo $bikes["Yamaha"]["location"]?></li>
@@ -75,7 +75,7 @@
                 <img src="<?php echo $bikes["BMW"]["picture"]?>" class="card-img-top" alt="<?php echo $bikes["BMW"]["model"]?>">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $bikes["BMW"]["model"]?></h5>
-                    <p class="card-text">This is a short information about this car.</p>
+                    <p class="card-text">This is a short information about this motorcycle.</p>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><?php echo "Seats: {$bikes["BMW"]["ps"]}"?></li>
                         <li class="list-group-item">Now at: <?php echo $bikes["BMW"]["location"]?></li>
@@ -91,7 +91,7 @@
                 <img src="<?php echo $bikes["Honda"]["picture"]?>" class="card-img-top" alt="<?php echo $bikes["Honda"]["model"]?>">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $bikes["Honda"]["model"]?></h5>
-                    <p class="card-text">This is a short information about this car.</p>
+                    <p class="card-text">This is a short information about this motorcycle.</p>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><?php echo "Seats: {$bikes["Honda"]["ps"]}"?></li>
                         <li class="list-group-item">Now at: <?php echo $bikes["Honda"]["location"]?></li>
@@ -107,7 +107,7 @@
                 <img src="<?php echo $bikes["Harley Davidson"]["picture"]?>" class="card-img-top" alt="<?php echo $bikes["Harley Davidson"]["model"]?>">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $bikes["Harley Davidson"]["model"]?></h5>
-                    <p class="card-text">This is a short information about this car.</p>
+                    <p class="card-text">This is a short information about this motorcycle.</p>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><?php echo "Seats: {$bikes["Harley Davidson"]["ps"]}"?></li>
                         <li class="list-group-item">Now at: <?php echo $bikes["Harley Davidson"]["location"]?></li>
