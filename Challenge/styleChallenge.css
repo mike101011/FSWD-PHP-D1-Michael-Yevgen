@@ -1,0 +1,42 @@
+body {
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+img {
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card {
+    margin-top: 3em;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-top: 3em;
+    padding: 2.5em 0;
+    color: rgb(117, 230, 178);
+}
+
+@media screen and (min-width: 1200px){
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body {
+        height: auto;
+    }
+}

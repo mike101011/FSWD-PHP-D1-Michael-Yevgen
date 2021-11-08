@@ -12,6 +12,7 @@
 </head>
 <body>
     
+<?php include 'cars.php'; ?>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -48,78 +49,82 @@
     </nav>
 </header>
 
-<main class="container">
+<main class="container" id="cars-cards">
     <div class="row">
 
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card">
+                <img src="<?php echo $cars["mercedes"]["img"]?>" class="card-img-top" alt="<?php echo $cars["mercedes"]["seats"]?>">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php echo $cars["mercedes"]["model"]?></h5>
+                    <p class="card-text">This is a short information about this car.</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item"><?php echo "Seats: {$cars["mercedes"]["seats"]}"?></li>
+                        <li class="list-group-item">Now at: <?php echo $cars["mercedes"]["location"]?></li>
+                        <li class="list-group-item">Price: <?php echo $cars["mercedes"]["price"]?> €</li>
                     </ul>
                     <a href="#" class="btn btn-primary">More info...</a>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card">
+                <img src="<?php echo $cars["BMW"]["img"]?>" class="card-img-top" alt="<?php echo $cars["BMW"]["seats"]?>">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php echo $cars["BMW"]["model"]?></h5>
+                    <p class="card-text">This is a short information about this car.</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item"><?php echo "Seats: {$cars["BMW"]["seats"]}"?></li>
+                        <li class="list-group-item">Now at: <?php echo $cars["BMW"]["location"]?></li>
+                        <li class="list-group-item">Price: <?php echo $cars["BMW"]["price"]?> €</li>
                     </ul>
                     <a href="#" class="btn btn-primary">More info...</a>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card">
+                <img src="<?php echo $cars["Audi"]["img"]?>" class="card-img-top" alt="<?php echo $cars["Audi"]["seats"]?>">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php echo $cars["Audi"]["model"]?></h5>
+                    <p class="card-text">This is a short information about this car.</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item"><?php echo "Seats: {$cars["Audi"]["seats"]}"?></li>
+                        <li class="list-group-item">Now at: <?php echo $cars["Audi"]["location"]?></li>
+                        <li class="list-group-item">Price: <?php echo $cars["Audi"]["price"]?> €</li>
                     </ul>
                     <a href="#" class="btn btn-primary">More info...</a>
                 </div>
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card">
+                <img src="<?php echo $cars["Volvo"]["img"]?>" class="card-img-top" alt="<?php echo $cars["Volvo"]["seats"]?>">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php echo $cars["Volvo"]["model"]?></h5>
+                    <p class="card-text">This is a short information about this car.</p>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item"><?php echo "Seats: {$cars["Volvo"]["seats"]}"?></li>
+                        <li class="list-group-item">Now at: <?php echo $cars["Volvo"]["location"]?></li>
+                        <li class="list-group-item">Price: <?php echo $cars["Volvo"]["price"]?> €</li>
                     </ul>
                     <a href="#" class="btn btn-primary">More info...</a>
                 </div>
             </div>
         </div>
+
+        
      
     </div>
 </main>
 
 
-
+<footer>
+  <p class="text-center">CarShop created @ Michael & Yevgen </p>
+</footer>
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
