@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+.ex-info {
+    display: inline-block;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+/*  exercise 2 styles */
+
+table {
+    margin: 2em auto;
+    border-collapse: collapse;
+    border: 1px solid greenyellow;
+
+}
+
+table th,
+table td {
+    width: 3em;
+    padding: .5em 1em;
+    text-align: left;
+    border: .5px solid grey;
+}
