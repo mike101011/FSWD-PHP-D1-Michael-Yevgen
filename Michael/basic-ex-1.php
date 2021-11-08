@@ -8,15 +8,13 @@
     <title>Basic 1</title>
     <style>
         .message {
-            text-align: center;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            position: absolute;
+            width: 100%;
+            top: 45%;
         }
 
-        .message .heading {
-            position: absolute;
-            top: 45%;
+        .heading {
+            text-align: center;
         }
     </style>
 </head>
@@ -28,6 +26,8 @@
     <div class="message">
         <h1 class="heading">My name is <?php echo $name; ?></h1>
     </div>
+
+
 
 </body>
 
